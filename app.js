@@ -1,0 +1,1 @@
+photo.classList.toggle("hidden");

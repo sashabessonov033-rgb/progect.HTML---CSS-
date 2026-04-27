@@ -33,6 +33,10 @@ body {
 
 .main {
   flex: 1;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .stroke {
@@ -58,6 +62,10 @@ a {
   background-color: pink;
   border-radius: 10px;
   padding: 15px ;
+  box-shadow: 0 4px 10px purple;
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: justify;
 }
 
 .footer {
@@ -92,10 +100,6 @@ a {
 .button:hover {
   background-color: #e63950;
   transform: scale(1.05);
-}
-
-.box {
-  box-shadow: 0 4px 10px purple;
 }
 
 .to-top {
